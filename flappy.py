@@ -39,7 +39,13 @@ class drawc():
     
 #r1 = drawr(20,30,50,150,"blue")
 #r2 = drawr(40,50,60,205,"green")
-c1 = drawc (30,30,"red",50)
+c1 = drawc (20,30,"red",50)
+c2 = drawc (19,30,"blue",25)
+c3 = drawc (500,30,"green",10)
+c4 = drawc (250,50,"purple",10)
+c5 = drawc (550,30,"brown",10)
+
+
 
 clock = pygame.time.Clock()
 
@@ -62,4 +68,15 @@ while True :
     #r2.draw()
     c1.draw()
     c1.update(dt)
+    c2.draw()
+    c2.update(dt)
+    c3.draw()
+    c3.update(dt)
+    c4.draw()
+    c4.update(dt)
+    c5.draw()
+    c5.update(dt)
+    
+
+
     pygame.display.update()
